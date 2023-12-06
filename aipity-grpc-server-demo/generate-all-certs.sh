@@ -22,7 +22,7 @@ fi
 
 echo "DOMAIN is: $DOMAIN"
 
-mkdir certs
+mkdir $CERT_DIR
 
 echo "################ 1. create PASSPHRASEFILE ###############"
 # create PASSPHRASEFILE
