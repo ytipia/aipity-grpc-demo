@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package group;
+
+option go_package = "./group";
+
+service GroupService{
+    rpc CreateGroup (Group) returns (Group) {}
+}
+
+message GroupID{
+    int32 value = 1;
+}
+
+message GroupName{
+    string value = 1;
+}
+
+message Group {
+    int32 id = 1;
+    string name = 2;
+}
+
+message Empty {
+
+}

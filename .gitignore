@@ -1,0 +1,7 @@
+tmp/
+data/
+dbcloud
+frontend/
+*.DS_Store
+*rice-box.go
+*.log
