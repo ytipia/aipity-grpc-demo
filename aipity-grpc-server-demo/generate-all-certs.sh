@@ -22,10 +22,9 @@ fi
 
 echo "DOMAIN is: $DOMAIN"
 
-mkdir $CERT_DIR
-
 echo "################ 1. create PASSPHRASEFILE ###############"
 # create PASSPHRASEFILE
+mkdir $CERT_DIR
 touch $PASSPHRASEFILE
 echo $PASS > $PASSPHRASEFILE
 
